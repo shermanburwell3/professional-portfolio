@@ -1,0 +1,11 @@
+* {
+    font-family: sans-serif;
+}
+h1, h2, h3 {
+    font-family: serif;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+}
