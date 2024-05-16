@@ -6,7 +6,29 @@ h1, h2, h3 {
     font-family: serif;
 }
 
-header nav ul li {
-    list-style: none;
-    display: inline;
+header {
+    background-color: aqua;
 }
+
+header h1 {
+    position: relative;
+    margin: 0 0 0 25px;
+    padding: 10px 0 0 0;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;   
+    align-items: flex-end;
+    justify-content: right;
+}
+
+header nav a {
+    margin: 10px 25px 10px 25px;
+}
+
+.portrait {
+    display: flex;
+    justify-content: center;
+}
+
