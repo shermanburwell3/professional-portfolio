@@ -127,9 +127,13 @@ footer h3, footer p, footer a {
 
 @media screen and (max-width:768px) {
 
-    .spotlight-project img {
+    header ul {
+        font-size: 70%;
+    }
+
+    .spotlight-project {
+        display: flex;
         justify-content: center;
-        width: 50%;
     }
 
     .projects {
@@ -142,7 +146,4 @@ footer h3, footer p, footer a {
         margin: 10px 25px 10px 25px;
     }
 
-
-    
-    
 }
