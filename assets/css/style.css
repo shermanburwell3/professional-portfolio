@@ -18,6 +18,10 @@ h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+p {
+    background-color: var(--box-background);
+}
+
 header {
     padding: 20px;
     color: #ffffff;
@@ -105,12 +109,21 @@ header a {
 }
 
 .projects div {
+    display: inline-block;
     margin-left: 25px;
     margin-right: 25px;
     padding: 15px 15px 15px 15px;
     border: #ffffff; 
     border-style: solid;
     background-color: var(--box-background);
+}
+
+.projects img {
+    max-width: 300px;
+}
+
+.projects img:hover {
+    max-width: 400px;
 }
 
 footer {
