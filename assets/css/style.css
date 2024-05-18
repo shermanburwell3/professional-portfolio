@@ -144,6 +144,10 @@ footer h3, footer p, footer a {
         font-size: 70%;
     }
 
+    img {
+        max-width: 70%;
+    }
+
     .spotlight-project {
         display: flex;
         justify-content: center;
