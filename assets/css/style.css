@@ -4,6 +4,10 @@
     background-color: rgb(6, 0, 56);
 }
 
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 header {
     padding: 20px;
     color: #ffffff;
@@ -16,15 +20,14 @@ header h1 {
 
 header ul {
     position: fixed;
+    margin-top: 0;
     top: 0;
     right: 0;
     padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-size: 20px;
-}
-
-header ul {
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    background-color: black;
     list-style-type: none;
 }
 
@@ -33,18 +36,14 @@ header ul li {
     margin-left: 25px;
 }
 
-a {
+header a {
     text-decoration: none;
+    background-color: black;
 }
 
 .portrait {
     display: flex;
     justify-content: center;
-}
-
-.projects img {
-    max-width: 200px;
-
 }
 
 .project-1 {
@@ -60,10 +59,29 @@ a {
 
 .project-1 img
 {
-    max-width: 400px;
+    max-width: 300px;
 }
+
 .project-1 span {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+.spotlight-project img:hover {
+    max-width: 400px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 25px 25px 25px;
+}
+.projects div {
+    margin: auto;
+    padding: 15px 15px 15px 15px;
+    border: #ffffff; 
+    border-style: solid;
+}
+
+
 
