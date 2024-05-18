@@ -42,3 +42,28 @@ a {
     justify-content: center;
 }
 
+.projects img {
+    max-width: 200px;
+
+}
+
+.project-1 {
+    display: flex;
+    place-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #ffffff; 
+    border-style: solid;
+    margin: 25px 25px 25px 25px;
+}
+
+.project-1 img
+{
+    max-width: 400px;
+}
+.project-1 span {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
