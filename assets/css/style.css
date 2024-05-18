@@ -104,7 +104,7 @@ header a {
     margin: 25px 0 25px 0;
 }
 
-.projects h2, .projects span, .projects a, .projects img {
+.projects h2, .projects a, .projects img {
     background-color: var(--box-background);
 }
 
