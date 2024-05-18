@@ -12,6 +12,10 @@
     line-height: 1.5;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -43,6 +47,7 @@ header ul li {
     display: inline-block;
     margin-left: 25px;
     background-color: black;
+    scroll-behavior: smooth;
 }
 
 header a {
