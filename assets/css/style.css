@@ -1,6 +1,7 @@
 :root {
     --box-background: rgb(0, 0, 68);
     --text-color: white;
+
 }
 
 * {
@@ -16,9 +17,15 @@ html {
 
 h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+h1 {
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-p {
+h2, h3, p {
     background-color: var(--box-background);
 }
 
@@ -66,7 +73,7 @@ header a {
     max-width: 400px;
 }
 
-.project-1 {
+.project-1, .about {
     display: flex;
     place-self: center;
     flex-direction: column;
@@ -75,6 +82,7 @@ header a {
     border: #ffffff; 
     border-style: solid;
     margin: 25px 25px 25px 25px;
+    padding: 15px 25px 15px 25px;
     background-color: var(--box-background);
 }
 
