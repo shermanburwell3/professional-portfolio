@@ -1,5 +1,10 @@
 # Professional Portfolio
 
+## Description
+
+This professional portfolio is a showcase of my current skills, which I plan to update as I grow my skills in web development.
+
+## Screenshot
 
 
 ## Credits
