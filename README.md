@@ -6,6 +6,7 @@ This professional portfolio is a showcase of my current skills, which I plan to 
 
 ## Screenshot
 
+![alt text](assets/images/webpage-screenshot.png)
 
 ## Credits
 
