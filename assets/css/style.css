@@ -64,6 +64,10 @@ header a {
     background-color: black;
 }
 
+header a:hover {
+    color: yellow;
+}
+
 .portrait {
     display: flex;
     justify-content: center;
@@ -94,8 +98,8 @@ header a {
     background-color: var(--box-background);
     justify-content: center;
 }
-.project-1 img
-{
+
+.project-1 img {
     max-width: 300px;
     background-color: var(--box-background);
 }
