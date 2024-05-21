@@ -132,6 +132,7 @@ header a:hover {
     border: #ffffff; 
     border-style: solid;
     background-color: var(--box-background);
+    width: 680px;
 }
 
 .projects img {
