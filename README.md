@@ -4,6 +4,8 @@
 
 This professional portfolio is a showcase of my current skills, which I plan to update as I grow my skills in web development.
 
+link: https://shermanburwell3.github.io/professional-portfolio/
+
 ## Screenshot
 
 ![alt text](assets/images/webpage-screenshot.png)
